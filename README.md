@@ -2,7 +2,7 @@
 github限制过大文件的上传，如果需要以下文件，请联系我
 [QQ]([2404521002@qq.com](https://qm.qq.com/q/fUZH3NVcf6))
 [163邮箱](liu128786292@163.com)
-![alt text](readme_image\image-6.png)![alt text](readme_image\image-7.png)
+![alt text](readme_image/image-6.png)![alt text](readme_image/image-7.png)
 # 1.本仓库的工作做了什么
 ## 1.1 实现了Vision Transformer(Vit)的本地部署和训练
 在[ViT_Train.py](.\ViT_Train.py)文件中对预训练模型（[vit_base_patch16_224](https://zhuanlan.zhihu.com/p/713616890)）进行了微调，微调前模型是基于ImageNet2012训练的，输出为1000类，我们将其改为58类（基于国内交通标志数据集）。

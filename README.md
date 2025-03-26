@@ -92,7 +92,7 @@ python ResNet_Train.py
 见我的个人[blog](https://blog.csdn.net/m0_59085764/article/details/127266647?spm=1001.2014.3001.5502)
 # 注意
 github限制过大文件的上传，如果需要以下文件，请联系我
-[QQ](https://qm.qq.com/q/fUZH3NVcf6)[163邮箱](liu128786292@163.com)
+[QQ](https://qm.qq.com/q/fUZH3NVcf6)   [163邮箱](liu128786292@163.com)
 
 ![alt text](readme_image/image-6.png)
 ![alt text](readme_image/image-7.png)

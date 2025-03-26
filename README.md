@@ -1,9 +1,4 @@
-# 注意
-github限制过大文件的上传，如果需要以下文件，请联系我
-[QQ]([2404521002@qq.com](https://qm.qq.com/q/fUZH3NVcf6))
-[163邮箱](liu128786292@163.com)
-![alt text](readme_image/image-6.png)![alt text](readme_image/image-7.png)
-# 1.本仓库的工作做了什么
+# 1.本仓库做了什么
 ## 1.1 实现了Vision Transformer(Vit)的本地部署和训练
 在[ViT_Train.py](.\ViT_Train.py)文件中对预训练模型（[vit_base_patch16_224](https://zhuanlan.zhihu.com/p/713616890)）进行了微调，微调前模型是基于ImageNet2012训练的，输出为1000类，我们将其改为58类（基于国内交通标志数据集）。
 ```
@@ -72,26 +67,31 @@ pip install -r environment.txt
 ```python
 python attack.py
 ```
-![alt text](readme_image\image.png)
+![alt text](readme_image/image.png)
 ## 3.2运行ViT_Train.py即可运行训练模型
 ```python
 python ViT_Train.py
 ```
-![alt text](readme_image\image-1.png)
+![alt text](readme_image/image-1.png)
 ## 3.3运行ResNet_Train.py即可运行训练模型
 ```python
 python ResNet_Train.py
 ```
-![alt text](readme_image\image-2.png)
+![alt text](readme_image/image-2.png)
 
 # 4.训练及攻击结果的保存
 ## 4.1训练结果的保存
-训练结果的保存在[VisionTransformer](.\Model\VisionTransformer)和[ResNet50](.\Model\ResNet50)中。
+训练结果的保存在[VisionTransformer](./Model/VisionTransformer)和[ResNet50](./Model/ResNet50)中。
 
-![alt text](readme_image\image-4.png)
+![alt text](readme_image/image-4.png)
 ## 4.2攻击结果的保存
 攻击结果的保存在[Attack](.\result)中。
 
-![alt text](readme_image\image-5.png)
+![alt text](readme_image/image-5.png)
 # 5.数据集的预处理（附录）
 见我的个人[blog](https://blog.csdn.net/m0_59085764/article/details/127266647?spm=1001.2014.3001.5502)
+# 注意
+github限制过大文件的上传，如果需要以下文件，请联系我
+[QQ]([2404521002@qq.com](https://qm.qq.com/q/fUZH3NVcf6))
+[163邮箱](liu128786292@163.com)
+![alt text](readme_image/image-6.png)![alt text](readme_image/image-7.png)
